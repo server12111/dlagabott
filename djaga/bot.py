@@ -1,3 +1,12 @@
+import subprocess
+import sys
+
+subprocess.run(
+    [sys.executable, "-m", "pip", "install", "-q",
+     "aiosqlite", "python-dotenv", "matplotlib", "pillow"],
+    check=True,
+)
+
 import asyncio
 import logging
 
