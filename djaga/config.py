@@ -13,7 +13,7 @@ ADMIN_USERNAME: str = os.getenv("ADMIN_USERNAME", "admin")
 REVIEW_CHAT_URL: str = os.getenv("REVIEW_CHAT_URL", "https://t.me/+F8Oi8ax3KZJjZTk6")
 CHANNEL_PUBLIC_URL: str = os.getenv("CHANNEL_PUBLIC_URL", "https://t.me/hrproworklive")
 REVIEW_PUBLIC_URL: str = os.getenv("REVIEW_PUBLIC_URL", "https://t.me/HRpro_Reviews")
-CHANNEL_INVITE_LINK: str = os.getenv("CHANNEL_INVITE_LINK", "https://t.me/+epeWdkIQegw5ZDJi")
+CHANNEL_INVITE_LINK: str = os.getenv("CHANNEL_INVITE_LINK", "https://t.me/+oQ6_sipkBv9mZDM6")
 VACANCY_GROUP_INVITE_LINK: str = os.getenv("VACANCY_GROUP_INVITE_LINK", "https://t.me/+ckcOSXBqbnQxZDg6")
 
 DB_PATH: str = os.getenv("DB_PATH", "./hr_pro.db")
